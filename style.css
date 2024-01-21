@@ -1,0 +1,134 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(53, 53, 53);
+}
+.frame{
+    border-width: 3px;
+    border-style: none;
+    margin: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-shadow: 3px 3px 5px 3px;
+}
+.myname{
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 10%;
+    padding-bottom: 3%;
+    font-size:50px; 
+    font-family: arial;
+    color: rgb(100, 166, 1);
+    font-weight: 800;
+    border-width: 5px;
+    border-style: dashed;
+    border-color:rgb(100, 166, 1);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.minidesc{
+    color:white;
+    font-family: arial;
+    font-size: 20px;
+    margin-right: 2%;
+    margin-left: 3%;
+}
+.skillstitle{
+    font-size: 30px;
+    font-family: arial;
+    font-weight:700 ;
+    color: rgb(230, 148, 148);
+    padding-top: 1%;
+    padding-bottom: 0;
+    padding-left: 3%;
+}
+.list1{
+    margin-left: 10%;
+}
+li{
+    padding: 1%;
+    transition: font-size 0.3s;
+}
+li:hover{
+    cursor: default;
+    font-size: 21px;
+}
+.myskills{
+    color: white;
+    font-size: 20px;
+    font-family: arial;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px rgba(0,0,0);
+}
+.courses{
+    color: rgb(230, 148, 148);
+    font-family: arial;
+    font-weight: 700;
+    font-size: 30px;
+    padding-left: 3%;
+    padding-bottom: 0%;
+    padding-top: 1%;
+}
+.cgpa{
+    color: white;
+    font-family: arial;
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 3%;
+}
+.coursetitle{
+    color:white;
+    padding-left: 5%;
+    font-family:arial;
+    font-weight: 300;
+    font-size: 25px;
+}
+.coursedesc{
+    color:white;
+    padding-left:7%;
+    font-family:arial;
+    font-weight: 200;
+    font-size: 20px;
+}
+.experience-title{
+    font-family: arial;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 3%;
+    color: rgb(230, 148, 148);
+}
+.experience-subtitle{
+    color:white;
+    font-family: arial;
+    font-size: 25px;
+    padding-left: 5%;
+    font-weight: 200;
+}
+.experience-subdesc{
+    color:white;
+    padding-left: 7%;
+    font-family: arial;
+    font-weight: 200;
+    font-size: 20px;
+}
+a:link{
+    text-decoration: none;
+    color:white;
+}
+a{
+    color:white;
+}
+.extra{
+    color:white;
+    font-family: arial;
+    font-size: 30px;
+    padding-left: 3%;
+    transition: font-size 0.3s;
+}
+.extra:hover{
+    font-size: 35px;
+}
