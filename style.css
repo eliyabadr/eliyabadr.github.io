@@ -1,0 +1,126 @@
+/* Unified High-Contrast Workstation Palette */
+:root {
+    --desktop-bg: #354e5e;      /* Deep Teal Desktop */
+    --ui-panel: #ced4da;        /* Gray Window Frame */
+    --window-inner: #ffffff;    /* Content Background */
+    --active-blue: #000080;     /* Unified Navy Blue */
+    --border-light: #ffffff;
+    --border-dark: #808080;
+}
+
+body {
+    background-color: var(--desktop-bg);
+    font-family: "Tahoma", "Verdana", sans-serif;
+    margin: 30px;
+}
+
+#container {
+    background-color: var(--ui-panel);
+    max-width: 950px;
+    margin: 0 auto;
+    border-top: 2px solid var(--border-light);
+    border-left: 2px solid var(--border-light);
+    border-right: 3px solid #444;
+    border-bottom: 3px solid #444;
+    padding: 3px;
+    box-shadow: 12px 12px 0px rgba(0,0,0,0.3);
+}
+
+/* Header - Eliya Badr Big Title */
+header.firstTimeName {
+    background: var(--active-blue); 
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-bottom: 1px solid #000;
+}
+
+header.firstTimeName h1 { 
+    font-size: 2.2rem; /* Large prominent name */
+    margin: 0; 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px #000;
+}
+
+/* Terminal Status Bar */
+.marquee-sim {
+    background: #000;
+    color: #00ff00;
+    font-family: "Courier New", monospace;
+    padding: 6px 12px;
+    border: 3px inset #444;
+    margin: 4px 0;
+    font-size: 1rem;
+}
+
+.main-layout {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 8px;
+    padding: 4px;
+}
+
+/* Sidebar Navigation */
+.sidebar {
+    background: var(--ui-panel);
+    border: 2px inset var(--border-light);
+    padding: 20px 15px;
+}
+
+.pixel-border {
+    width: 100%;
+    border: 2px solid var(--border-dark);
+    margin-bottom: 15px;
+    filter: grayscale(1);
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 8px 12px;
+    background: #c0c0c0;
+    border-top: 1px solid var(--border-light);
+    border-left: 1px solid var(--border-light);
+    border-right: 1px solid var(--border-dark);
+    border-bottom: 1px solid var(--border-dark);
+    margin-bottom: 4px;
+    font-size: 0.9rem;
+}
+
+.sidebar a:hover {
+    background: var(--active-blue); /* Replaces Mustard */
+    color: #ffffff;
+    border: 1px inset #000;
+}
+
+/* Main Content and Block Titles */
+.content {
+    background: var(--window-inner);
+    border: 3px inset var(--border-light);
+    padding: 40px;
+    min-height: 500px;
+}
+
+.block-title {
+    background: var(--active-blue); /* Unified Blue */
+    color: white;
+    border: 1px solid #000;
+    font-size: 1.1rem;
+    padding: 6px 12px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    box-shadow: 2px 2px 0px #808080;
+}
+
+footer {
+    background: #c0c0c0;
+    border-top: 2px solid var(--border-dark);
+    padding: 8px 15px;
+    font-size: 0.75rem;
+    text-align: right;
+    font-family: 'Courier New', monospace;
+}
